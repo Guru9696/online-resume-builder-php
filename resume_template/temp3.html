@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful CV</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .header .title {
+            font-size: 20px;
+            color: #555;
+            margin-top: 5px;
+        }
+
+        .contact-info {
+            text-align: right;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h3 {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+            font-size: 22px;
+            border-radius: 5px;
+        }
+
+        .section p {
+            margin: 10px 0;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            padding: 5px 0;
+        }
+
+        /* Skills Section */
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skills ul li {
+            background-color: #f4f7fc;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            width: 45%;
+            font-size: 14px;
+            color: #555;
+            text-align: center;
+        }
+
+        /* Work Experience and Education Section */
+        .experience ul, .education ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .experience ul li, .education ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .experience ul li:last-child, .education ul li:last-child {
+            border-bottom: none;
+        }
+
+        .experience .date, .education .date {
+            font-size: 12px;
+            color: #777;
+        }
+
+        /* Projects Section */
+        .projects ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .projects ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .projects ul li:last-child {
+            border-bottom: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        <div>
+            <h1>John Doe</h1>
+            <p class="title">Web Developer</p>
+        </div>
+        <div class="contact-info">
+            <a href="mailto:john.doe@example.com">john.doe@example.com</a><br>
+            <a href="https://www.linkedin.com/in/johndoe">LinkedIn</a> | 
+            <a href="https://github.com/johndoe">GitHub</a>
+        </div>
+    </div>
+
+    <!-- Profile Section -->
+    <div class="section">
+        <h3>Profile Summary</h3>
+        <p>A highly skilled Web Developer with over 5 years of experience building modern web applications. Proficient in front-end and back-end technologies including React, JavaScript, PHP, and more. Passionate about coding, learning new technologies, and solving complex problems.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (React, Node.js)</li>
+            <li>PHP & MySQL</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Design</li>
+            <li>API Integration</li>
+        </ul>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="section experience">
+        <h3>Work Experience</h3>
+        <ul>
+            <li>
+                <strong>Senior Web Developer</strong><br>
+                <span class="date">January 2020 - Present</span><br>
+                Company XYZ, New York
+                <p>Lead a team of developers in building scalable web applications. Improved user experience and application speed by optimizing front-end code and incorporating best practices.</p>
+            </li>
+            <li>
+                <strong>Web Developer</strong><br>
+                <span class="date">July 2017 - December 2019</span><br>
+                Company ABC, San Francisco
+                <p>Developed and maintained client websites using HTML, CSS, and JavaScript. Collaborated with the design team to implement creative and functional web pages.</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section education">
+        <h3>Education</h3>
+        <ul>
+            <li>
+                <strong>Bachelor of Science in Computer Science</strong><br>
+                <span class="date">2013 - 2017</span><br>
+                University of XYZ, San Francisco
+            </li>
+        </ul>
+    </div>
+
+    <!-- Certifications Section -->
+    <div class="section">
+        <h3>Certifications</h3>
+        <ul>
+            <li>Certified JavaScript Developer - FreeCodeCamp</li>
+            <li>React Developer Certification - Udemy</li>
+        </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section projects">
+        <h3>Projects</h3>
+        <ul>
+            <li>
+                <strong>Portfolio Website</strong> - A personal portfolio to showcase my web development projects. [GitHub](https://github.com/johndoe/portfolio)
+            </li>
+            <li>
+                <strong>Task Manager App</strong> - A task management application built with React and Node.js to manage daily tasks and activities. [GitHub](https://github.com/johndoe/task-manager)
+            </li>
+        </ul>
+    </div>
+
+    <!-- Languages Section -->
+    <div class="section">
+        <h3>Languages</h3>
+        <ul>
+            <li>English - Native</li>
+            <li>Spanish - Intermediate</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
