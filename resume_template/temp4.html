@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique CV</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background-color: #3b3a3a;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .sidebar h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .sidebar p {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin: 5px 0;
+            display: block;
+        }
+
+        .sidebar a:hover {
+            color: #ff5722;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex-grow: 1;
+            padding-left: 30px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+            color: #333;
+        }
+
+        .header .title {
+            font-size: 20px;
+            color: #777;
+            margin-top: 5px;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h3 {
+            font-size: 22px;
+            color: #fff;
+            background-color: #ff5722;
+            padding: 10px;
+            margin: 0;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+
+        .section p, .section ul {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .section ul li:last-child {
+            border-bottom: none;
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills ul li {
+            background-color: #f4f7fc;
+            padding: 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            width: 48%;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>John Doe</h2>
+        <p>Full Stack Developer</p>
+        <a href="mailto:john.doe@example.com">Email</a>
+        <a href="https://www.linkedin.com/in/johndoe">LinkedIn</a>
+        <a href="https://github.com/johndoe">GitHub</a>
+        <a href="https://johndoe.com">Website</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <div class="header">
+            <div>
+                <h1>John Doe</h1>
+                <p class="title">Full Stack Developer</p>
+            </div>
+        </div>
+
+        <!-- Profile Summary -->
+        <div class="section">
+            <h3>Profile Summary</h3>
+            <p>Experienced full-stack developer with a passion for creating innovative solutions. Proficient in building dynamic and responsive websites and applications. Always eager to learn new technologies and take on challenging projects.</p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (React, Node.js)</li>
+                <li>PHP & MySQL</li>
+                <li>Git & GitHub</li>
+                <li>Responsive Design</li>
+                <li>API Development</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+
+        <!-- Work Experience Section -->
+        <div class="section">
+            <h3>Work Experience</h3>
+            <ul>
+                <li>
+                    <strong>Senior Web Developer</strong><br>
+                    <span class="date">January 2020 - Present</span><br>
+                    Company XYZ, New York
+                    <p>Led a team of developers in creating scalable and high-performance web applications. Ensured code quality and application security through best practices and continuous integration.</p>
+                </li>
+                <li>
+                    <strong>Web Developer</strong><br>
+                    <span class="date">June 2017 - December 2019</span><br>
+                    Company ABC, San Francisco
+                    <p>Worked with a cross-functional team to build client-side solutions, improving UX and increasing conversion rates. Focused on integrating APIs and maintaining web applications.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <strong>Bachelor of Science in Computer Science</strong><br>
+                    <span class="date">2013 - 2017</span><br>
+                    University of XYZ, San Francisco
+                </li>
+            </ul>
+        </div>
+
+        <!-- Certifications Section -->
+        <div class="section">
+            <h3>Certifications</h3>
+            <ul>
+                <li>Certified React Developer - Udemy</li>
+                <li>Full-Stack Development Certification - FreeCodeCamp</li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h3>Projects</h3>
+            <ul>
+                <li>
+                    <strong>Portfolio Website</strong> - A personal portfolio built with HTML, CSS, and JavaScript. [GitHub](https://github.com/johndoe/portfolio)
+                </li>
+                <li>
+                    <strong>Expense Tracker</strong> - A simple React app that tracks daily expenses. [GitHub](https://github.com/johndoe/expense-tracker)
+                </li>
+            </ul>
+        </div>
+
+        <!-- Languages Section -->
+        <div class="section">
+            <h3>Languages</h3>
+            <ul>
+                <li>English - Native</li>
+                <li>Spanish - Intermediate</li>
+            </ul>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2025 John Doe. All rights reserved.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
