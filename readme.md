@@ -58,5 +58,8 @@ http://localhost/online-resume-builder-php/
 - **FPDF Library**: [FPDF Official Website](http://www.fpdf.org/)
 - **Stack Overflow**: For solving PHP-related issues during development.
 
+## Contact
+For any inquiries or support, please contact [Your Name] at [your-email@example.com].
+
 
 
